@@ -12,7 +12,7 @@ It supports:
 ## Installation
 
 ```bash
-npm install @luminawall/core
+npm install luminawall
 ```
 
 ## Repository Layout
@@ -43,7 +43,7 @@ That starts the demo app from `demo/`. The npm package itself is built only from
 </div>
 
 <script type="module">
-  import { createWallpaper } from '@luminawall/core';
+  import { createWallpaper } from 'luminawall';
 
   const hero = document.getElementById('hero');
 
@@ -64,7 +64,7 @@ That starts the demo app from `demo/`. The npm package itself is built only from
 ### React
 
 ```tsx
-import { LuminaWall } from '@luminawall/core/react';
+import { LuminaWall } from 'luminawall/react';
 
 export function Hero() {
   return (
@@ -101,13 +101,13 @@ import {
   getPresetById,
   isPresetType,
   resolveWallpaperConfig,
-} from '@luminawall/core';
+} from 'luminawall';
 ```
 
 ### React API
 
 ```ts
-import { LuminaWall } from '@luminawall/core/react';
+import { LuminaWall } from 'luminawall/react';
 ```
 
 ## Core API Reference
@@ -534,7 +534,7 @@ Custom options:
 If you want to let users switch presets dynamically:
 
 ```ts
-import { PRESETS, createWallpaper } from '@luminawall/core';
+import { PRESETS, createWallpaper } from 'luminawall';
 
 const wallpaper = createWallpaper(container, { preset: 'LIQUID_GLASS' });
 
