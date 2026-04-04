@@ -24,4 +24,4 @@ jobs:
       - run: npm -v
       - run: npm ci
       - run: npm run build
-      - run: npm publish
+      - run: npm publish --tag alpha
