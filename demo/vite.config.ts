@@ -5,8 +5,9 @@ import react from '@vitejs/plugin-react';
 
 const demoRoot = path.dirname(fileURLToPath(import.meta.url));
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   root: demoRoot,
+  base: command === 'build' ? '/LuminaWall/' : '/',
   plugins: [react()],
   server: {
     port: 3000,
@@ -17,4 +18,4 @@ export default defineConfig({
       '@': path.resolve(demoRoot, '..'),
     },
   },
-});
+}));
