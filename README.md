@@ -11,6 +11,50 @@ It supports:
 - Runtime preset switching by preset name
 - Shared global controls plus preset-specific custom controls
 
+## Index
+
+| Section | Link |
+| --- | --- |
+| Installation | [Installation](#installation) |
+| Repository Layout | [Repository Layout](#repository-layout) |
+| Quick Start | [Quick Start](#quick-start) |
+| Vanilla JavaScript | [Vanilla JavaScript](#vanilla-javascript) |
+| React | [React](#react) |
+| Package Exports | [Package Exports](#package-exports) |
+| Core API | [Core API](#core-api) |
+| React API | [React API](#react-api) |
+| Core API Reference | [Core API Reference](#core-api-reference) |
+| `createWallpaper(target, options)` | [`createWallpaper(target, options)`](#createwallpapertarget-options) |
+| `setConfig(update)` | [`setConfig(update)`](#setconfigupdate) |
+| Preset Helpers | [Preset Helpers](#preset-helpers) |
+| React API Reference | [React API Reference](#react-api-reference) |
+| `LuminaWall` | [`LuminaWall`](#luminawall) |
+| Configuration Model | [Configuration Model](#configuration-model) |
+| `CreateWallpaperOptions` | [`CreateWallpaperOptions`](#createwallpaperoptions) |
+| Render Policy | [Render Policy](#render-policy) |
+| Performance Instrumentation | [Performance Instrumentation](#performance-instrumentation) |
+| Global Controls | [Global Controls](#global-controls) |
+| Preset Catalog | [Preset Catalog](#preset-catalog) |
+| `LIQUID_GLASS` | [`LIQUID_GLASS`](#liquid_glass) |
+| `MONO_TOPOLOGY` | [`MONO_TOPOLOGY`](#mono_topology) |
+| `WINDOWS_BLOOM` | [`WINDOWS_BLOOM`](#windows_bloom) |
+| `MARBLE_METAMORPHOSIS` | [`MARBLE_METAMORPHOSIS`](#marble_metamorphosis) |
+| `BAUHAUS_GRID` | [`BAUHAUS_GRID`](#bauhaus_grid) |
+| `ISO_SLABS` | [`ISO_SLABS`](#iso_slabs) |
+| `SOLAR_PLASMA` | [`SOLAR_PLASMA`](#solar_plasma) |
+| `CYBER_GRID` | [`CYBER_GRID`](#cyber_grid) |
+| `MOLTEN_CHROME` | [`MOLTEN_CHROME`](#molten_chrome) |
+| `DEEP_COSMOS` | [`DEEP_COSMOS`](#deep_cosmos) |
+| `SPECTRAL_DRIFT` | [`SPECTRAL_DRIFT`](#spectral_drift) |
+| Building a Preset Picker | [Building a Preset Picker](#building-a-preset-picker) |
+| Layout Notes | [Layout Notes](#layout-notes) |
+| Browser Support | [Browser Support](#browser-support) |
+| Troubleshooting | [Troubleshooting](#troubleshooting) |
+| Nothing renders | [Nothing renders](#nothing-renders) |
+| Background renders but content disappears behind it | [Background renders but content disappears behind it](#background-renders-but-content-disappears-behind-it) |
+| A preset looks wrong after switching | [A preset looks wrong after switching](#a-preset-looks-wrong-after-switching) |
+| License | [License](#license) |
+
 ## Installation
 
 ```bash
